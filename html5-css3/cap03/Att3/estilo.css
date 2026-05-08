@@ -1,0 +1,27 @@
+h3{
+    background-color: #63afbe;
+    padding: 4px;
+}
+   a{
+    color: #63afbe;
+    text-decoration: none;
+   } 
+   a:hover{
+    color: #ffa700;
+   }
+   body{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   p{
+    font-weight: bold;
+   }
+   hr{
+    border: solid 2px #7faeb7;
+   }
+   img{
+    border: solid 4px #ffffff
+   }
+   img:hover{
+    border: solid 4px #ffa700
+   }
+   

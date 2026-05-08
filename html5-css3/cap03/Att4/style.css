@@ -1,0 +1,34 @@
+body{
+    background-image: url(../ex04/torta_limao_backS.png), url(../ex04/torta_limao_backI.png);
+    background-color: #ffffcb;
+    background-position: center top, center bottom;
+    background-repeat: repeat-x, repeat-x;
+    max-width: 700px;
+    margin: auto;
+    padding: 50px;
+}
+
+h1{
+    color:#FF9900;
+}
+
+h2{
+    background-color: #FF9900;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+ul.PassoaPasso{
+    background-color: #daff95;
+    list-style-image: url(../ex04/torta_limao_item1.gif);
+    padding-top: 10px;
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+}
+ul ul{
+    list-style-image: url(../ex04/torta_limao_item2.gif);
+}
+
+ul ul ul{
+    list-style-image: url(../ex04/torta_limao_item3.gif);
+}
