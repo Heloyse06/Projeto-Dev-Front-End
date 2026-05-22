@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table, th, tr, td{
+    border-collapse: collapse;
+    border: solid 1px rgb(0, 0, 120);
+}
+
+table tr th{
+    border: solid 1px white;
+    background-color: rgb(0, 0, 120);
+    color: white;
+}
+
+td, th{
+    text-align: center;
+    padding: 5px 30px;
+}
+
+#ultima-td{
+    padding: 10px;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+    <style>
+    body{
+    width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+}
+header h1{
+    color: #ffff;
+    border-bottom: solid #c4d6a8;
+    background-color: black;
+    margin-top: 0;
+}
+nav{
+    width: 150px;
+    float: left;
+}
+nav ul{
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+    border-top: solid thin;
+}
+nav ul li:last-child{
+    border-bottom: solid thin;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header figure{
+    margin-bottom: 0;
+}
+main{
+    width: 620px;
+    float: left;
+    margin: 0 20px;
+    text-align: justify;
+}
+main h1{
+    border-bottom: solid #000;
+    margin: 0;
+}
+main h2{
+    text-align: right;
+    margin: 0;
+    font-size: 14px;
+}
+main img{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+aside{
+    width: 150px;
+    float: left;
+}
+aside h2{
+    border-bottom: solid thin #c4d6a8;
+    margin: 0;
+    font-weight: bold;
+}
+.horario{
+    margin-top: 0;
+    text-align: right;
+    color: #c4d6a8;
+}
+article p a{
+    color: #7e0000;
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+    text-decoration: none;
+}
+footer{
+    clear: both;
+    border-top: solid #c4d6a8;
+}
+footer p{
+    color: #ffff;
+    text-align: center;
+    font-size: 30px;
+    background-color: #000;
+    padding: 20px;
+    margin: 0;
+    border-top: solid #c4d6a8 10px;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="ex3/vista1.JPG" alt="vista 1">
+            <img src="ex3/vista4.JPG" alt="vista 2">
+            <img src="ex3/vista5.JPG" alt="vista 3">
+            <img src="ex3/vista2.JPG" alt="vista 4">
+            <img src="ex3/vista3.JPG" alt="vista 5">
+        </figure>
+        <h1>Portal da Floresta</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">link 1</a></li>
+            <li><a href="">link 2</a></li>
+            <li><a href="">link 3</a></li>
+            <li><a href="">link 4</a></li>
+            <li><a href="">link 5</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Título Principal</h1>
+        <h2>autor e data</h2>
+        Lorem ipsum dolor sit amet,<br>
+        consectetur adipiscing elit. Nulla vitae <br>
+        varius nunc.
+        <figure>
+            <img src="ex3/escada.jpg" alt="detalhe interno">
+        </figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae varius nunc. Aliquam sed nulla urna, porta porttitor libero. Duis molestie rhoncus neque, quis posuere turph2is congue non. In mattis, turpis ac rhoncus ultrices, nisl lacus fermentum lectus, in vulputate purus erat in nisl. Phasellus tristique, nunc et eleifend viverra, felis dolor sollicitudin nunc, et semper nisi magna id elit. Sed nulla turpis, tempus vitae rhoncus et, iaculis at est. Aliquam erat volutpat. Nullam orci eros, volutpat in congue vitae, ornare ut felis. Sed venenatis lorem non arcu venenatis a placerat leo ullamcorper. Ut imperdiet pharetra mi ac sagittis. Mauris a nibh massa. Morbi consequat faucibus velit vel viverra. Donec quis nulla in sem rutrum accumsan nec et ipsum. Praesent viverra est at tortor euismod at interdum augue interdum.</p>
+    </main>
+    
+    <aside>
+        <article>
+            <h2>notícia1</h2>
+            <p  class="horario">00h00 / 01.01</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae varius nunc. <a href="">» leia mais</a></p>
+        </article>
+        <article>
+            <h2>notícia 2</h2>
+            <p class="horario">00h00 / 01.01</p>
+            <p>Aenean ut massa et erat sagittis fringilla vel sed nibh. Sed lacinia volutpat consectetur. <a href="">» outras</a></p>
+        </article>
+        <article>
+            <h2>notícia 3</h2>
+            <p class="horario">00h00 / 01.01</p>
+            <p>Fusce tempor sapien at nunc congue cursus. Aenean lacus felis, volutpat. <a href="">» siga o exemplo</a></p>
+        </article>
+    </aside>
+
+    <footer>
+        <p>rua vitae rhoncus, 123 - são paulo, sp - 01234-000 - 11 1234.5678</p>
+    </footer>
+</body>
+</html>
