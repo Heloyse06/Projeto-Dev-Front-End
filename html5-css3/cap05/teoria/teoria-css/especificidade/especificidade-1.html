@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Especificidade CSS</title>
+</head>
+<style>
+li {
+    color: darkblue;
+}
+
+.acessorio2, .acessorio3, .acessorio4 {
+    color: rgb(110, 155, 170);
+}
+
+.acessorio1 {
+    color: orange; 
+}
+
+.novo {
+    color: pink;
+}
+
+li.novo {
+    color: orange;
+}
+
+#obrigatorio li {
+    color: green;
+}
+
+.legenda li {
+    color: black;
+}
+</style>
+<body>
+
+    <h2>Carros</h2>
+    <ul>
+        <li>carro 1</li>
+        <li>carro 2</li>
+        <li>carro 3</li>
+        <li>carro 4</li>
+    </ul>
+
+    <h2>Acessórios</h2>
+    <ul>
+        <li class="acessorio1">acessório 1</li>
+        <li class="acessorio2">acessório 2</li>
+        <li class="acessorio3">acessório 3</li>
+        <li class="acessorio4">acessório 4</li>
+    </ul>
+
+    <h2>Itens obrigatórios</h2>
+    <ul id="obrigatorio">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li style="color:red;">item 3 - superobrigatório</li>
+        <li class="novo">item 4</li>
+    </ul>
+
+    <h1>Legenda de cores:</h1>
+
+    <ul class="legenda">
+        <li>azul escuro - elemento: li</li>
+        <li>azul claro - classe + elemento: .acessorios li</li>
+        <li>rosa - classe: .novo (não é específico o suficiente para aparecer)</li>
+        <li>laranja - elemento + classe: li.novo</li>
+        <li>verde - ID + elemento: #obrigatorio li</li>
+        <li>vermelho - estilo inline</li>
+    </ul>
+</body>
+</html>
